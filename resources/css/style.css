@@ -88,3 +88,37 @@ nav a:hover {
 img {
   height: 200px;
 }
+
+.tea h3 {
+  margin-top: 10px;
+}
+
+/* Locations */
+.locations-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url("../images/img-locations-background.jpg");
+}
+
+.locations {
+  text-align: center;
+}
+
+.locations h2 {
+  margin-bottom: 55px;
+}
+
+.flex-container {
+  width: 980px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.location {
+  background-color: black;
+  width: 300px;
+}
