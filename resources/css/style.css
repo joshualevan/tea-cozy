@@ -1,3 +1,4 @@
+/* Global */
 body {
   font-family: Helvetica, sans-serif;
   font-size: 22px;
@@ -9,6 +10,13 @@ body {
   padding: 0;
 }
 
+h2, h3, h4 {
+  margin: 5px;
+  padding: 0;
+  font-weight: bold;
+}
+
+/* Hearer */
 header {
   display: flex;
   position: fixed;
@@ -34,6 +42,8 @@ nav a {
 nav a:hover {
   color: skyblue;
 }
+
+/* Main */
 .main {
   padding-top: 69px;
   opacity: 0.9;
@@ -54,4 +64,27 @@ nav a:hover {
   background-color: black;
   text-align: center;
   width: 100%;
+}
+
+/*Tea of the Month*/
+.month {
+  margin: 70px auto 50px auto;
+  width: 1000px;
+  text-align: center;
+}
+
+.teas {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tea {
+  text-align: center;
+  margin: 10px;
+}
+
+img {
+  height: 200px;
 }
